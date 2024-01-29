@@ -12,6 +12,11 @@ serve:
 deploy:
 	npm run deploy
 
+deploy-construction:
+	git checkout under-construction
+	npm run deploy
+	git checkout main
+
 clean:
 	rm -rf node_modules
 	rm -rf dist
