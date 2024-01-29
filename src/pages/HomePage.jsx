@@ -98,11 +98,35 @@ function HomePage() {
                 </section>
 
                 <section className="w-full py-16 md:py-32 lg:py-40 bg-gray-100 flex items-center justify-center m-0">
-                    <div className="container px-4 md:px-6">
-                        <div className="flex flex-col items-center space-y-4 text-center">
-                            <div className="space-y-2">
-                                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Education Information</h1>
-                                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">General information about my education. Must have a general overview of my education, with certificates and what not</p>
+                    <div className="container space-y-12 px-4 md:px-6">
+                        <div className="flex flex-col items-center justify-center space-y-4">
+                            <div className="flex flex-col items-center space-y-2">
+                                <Link to="/education">
+                                    <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl cursor-pointer text-center">
+                                        Education
+                                    </h2>
+                                </Link>
+                                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                    This is my latest education status. For the full list of my education, please visit the education section
+                                </p>
+                                <div key="1" className="flex items-center justify-center gap-4 p-6 shadow-md bg-white rounded-lg w-full max-w-lg">
+                                    <img
+                                        alt="University Logo"
+                                        className="w-24 h-24 object-contain"
+                                        height="100"
+                                        src="src\assets\ITUlogo.png"
+                                        style={{
+                                            aspectRatio: "100/100",
+                                            objectFit: "contain",
+                                        }}
+                                        width="100"
+                                    />
+                                    <div className="space-y-2">
+                                        <h2 className="text-xl font-bold">Istanbul Technical University</h2>
+                                        <p className="text-gray-500">Bachelor of Engineering in Computer Engineering</p>
+                                        <p className="text-sm text-gray-400">2021 - 2025</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -134,69 +158,63 @@ function HomePage() {
 
                 <section className="w-full py-16 md:py-32 bg-gray-100 flex items-center justify-center m-0">
                     <div className="container px-4 md:px-6">
-                        <div className="flex flex-col items-center space-y-4 text-center">
+                        <div className="flex flex-col items-center space-y-4 text-center pb-6">
                             <div className="space-y-2">
-                                <div className="container space-y-12 px-4 md:px-6">
-                                    <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                                        <div className="space-y-2">
-                                            <Link to="/projects">
-                                                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl cursor-pointer">
-                                                    My Projects
-                                                </h2>
-                                            </Link>
-                                            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                                Here are a few of my most recent projects. For the full list, please visit the projects section.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
-
-                                        <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization" target="_blank" rel="noopener noreferrer" className="group">
-                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
-                                                <img
-                                                    alt="Project 1"
-                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
-                                                    height="250"
-                                                    src="src\assets\Project1.png"
-                                                    width="350"
-                                                />
-                                                <h3 className="text-lg font-bold">ALU System Desgin</h3>
-                                                <p className="text-sm text-gray-500">Designed a working ALU system with Vivado and Verilog</p>
-                                            </div>
-                                        </a>
-
-                                        <a href="https://github.com/AbdullahSh20/Database-Course-Project" target="_blank" rel="noopener noreferrer" className="group">
-                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
-                                                <img
-                                                    alt="Project 2"
-                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
-                                                    height="250"
-                                                    src="src\assets\Project2.png"
-                                                    width="350"
-                                                />
-                                                <h3 className="text-lg font-bold">Full Stack Website</h3>
-                                                <p className="text-sm text-gray-500">Wrote a Full Stack website using Flask, React, MySQL</p>
-                                            </div>
-                                        </a>
-
-                                        <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4" target="_blank" rel="noopener noreferrer" className="group">
-                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
-                                                <img
-                                                    alt="Project 3"
-                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
-                                                    height="250"
-                                                    src="src\assets\Project3.png"
-                                                    width="350"
-                                                />
-                                                <h3 className="text-lg font-bold">Routing Algorithms Simulator</h3>
-                                                <p className="text-sm text-gray-500">Wrote a routing algorithms simulator using python</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                </div>
+                                <Link to="/projects">
+                                    <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl cursor-pointer">
+                                        My Projects
+                                    </h2>
+                                </Link>
+                                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                    Here are a few of my most recent projects. For the full list, please visit the projects section.
+                                </p>
                             </div>
                         </div>
+                        <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+
+                            <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization" target="_blank" rel="noopener noreferrer" className="group">
+                                <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                    <img
+                                        alt="Project 1"
+                                        className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                        height="250"
+                                        src="src\assets\Project1.png"
+                                        width="350"
+                                    />
+                                    <h3 className="text-lg font-bold">ALU System Desgin</h3>
+                                    <p className="text-sm text-gray-500">Designed a working ALU system with Vivado and Verilog</p>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/AbdullahSh20/Database-Course-Project" target="_blank" rel="noopener noreferrer" className="group">
+                                <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                    <img
+                                        alt="Project 2"
+                                        className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                        height="250"
+                                        src="src\assets\Project2.png"
+                                        width="350"
+                                    />
+                                    <h3 className="text-lg font-bold">Full Stack Website</h3>
+                                    <p className="text-sm text-gray-500">Wrote a Full Stack website using Flask, React, MySQL</p>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4" target="_blank" rel="noopener noreferrer" className="group">
+                                <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                    <img
+                                        alt="Project 3"
+                                        className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                        height="250"
+                                        src="src\assets\Project3.png"
+                                        width="350"
+                                    />
+                                    <h3 className="text-lg font-bold">Routing Algorithms Simulator</h3>
+                                    <p className="text-sm text-gray-500">Wrote a routing algorithms simulator using python</p>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                 </section>
 
