@@ -9,14 +9,17 @@ function Navbar() {
                 <span className="sr-only">Home</span>
             </Link>
             <nav className="font-medium sm:flex flex-row items-center gap-5 text-sm lg:gap-6">
-                <Link to="/projects" className="hover:underline">
-                    Projects
+                <Link to="/education" className="navbar-link hover:underline text-base lg:text-custom">
+                    Education
                 </Link>
-                <Link to="/experiences" className="hover:underline">
+                <Link to="/experiences" className="navbar-link hover:underline text-base lg:text-custom">
                     Experiences
                 </Link>
-                <Link to="/education" className="hover:underline">
-                    Education
+                <Link to="/projects" className="navbar-link hover:underline text-base lg:text-custom">
+                    Projects
+                </Link>
+                <Link to="/certificates" className="navbar-link hover:underline text-base lg:text-custom">
+                    Certificates
                 </Link>
             </nav>
         </header>
@@ -40,7 +43,7 @@ function HomeIcon(props) {
             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
             <polyline points="9 22 9 12 15 12 15 22" />
         </svg>
-    )
+    );
 }
 
 export default Navbar;

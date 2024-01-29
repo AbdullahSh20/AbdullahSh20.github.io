@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencesPage from './pages/ExperiencesPage';
 import EducationPage from './pages/EducationPage';
-import Navbar from './components/Navbar';
+import CertificatesPage from './pages/CertificatesPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/experiences" element={<ExperiencesPage />} />
             <Route path="/education" element={<EducationPage />} />
+            <Route path="/certificates" element={<CertificatesPage />} />
           </Routes>
         </div>
       </Router>
