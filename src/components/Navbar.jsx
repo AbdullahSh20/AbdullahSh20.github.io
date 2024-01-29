@@ -18,9 +18,6 @@ function Navbar() {
                 <Link to="/projects" className="navbar-link hover:underline text-base lg:text-custom">
                     Projects
                 </Link>
-                <Link to="/certificates" className="navbar-link hover:underline text-base lg:text-custom">
-                    Certificates
-                </Link>
             </nav>
         </header>
     );

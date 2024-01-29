@@ -3,6 +3,8 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaFilePdf } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import ExperienceCard from '../components/ExperienceCard';
 
 function HomePage() {
     return (
@@ -100,29 +102,99 @@ function HomePage() {
                         <div className="flex flex-col items-center space-y-4 text-center">
                             <div className="space-y-2">
                                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Education Information</h1>
-                                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">General information about my education.</p>
+                                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">General information about my education. Must have a general overview of my education, with certificates and what not</p>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section className="w-full py-16 md:py-32 lg:py-40 flex items-center justify-center m-0">
-                    <div className="container px-4 md:px-6">
-                        <div className="flex flex-col items-center space-y-4 text-center">
+                <section className="w-full py-16 md:py-32 flex items-center justify-center m-0">
+                    <div className="container space-y-12 px-4 md:px-6">
+                        <div className="flex flex-col items-center justify-center space-y-4 text-center">
                             <div className="space-y-2">
-                                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">University Coursework</h1>
-                                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">A list of all the courses I have taken in university.</p>
+                                <Link to="/experiences">
+                                    <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl cursor-pointer">
+                                        My Experiences
+                                    </h2>
+                                </Link>
+                                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                    This is my latest position. For the full list of my experiences, please visit the experiences section.
+                                </p>
                             </div>
+                            <ExperienceCard
+                                companyName="SiMiT Lab"
+                                position="Undergraduate Student Researcher"
+                                description="Working on Insects AI project by using Deep Learning techniques"
+                                duration="Nov 2023 - Present"
+                                to="/experiences"
+                            />
                         </div>
                     </div>
                 </section>
 
-                <section className="w-full py-16 md:py-32 lg:py-40 bg-gray-100 flex items-center justify-center m-0">
+                <section className="w-full py-16 md:py-32 bg-gray-100 flex items-center justify-center m-0">
                     <div className="container px-4 md:px-6">
                         <div className="flex flex-col items-center space-y-4 text-center">
                             <div className="space-y-2">
-                                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Certificates</h1>
-                                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">A list of all the certificates I have earned.</p>
+                                <div className="container space-y-12 px-4 md:px-6">
+                                    <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                                        <div className="space-y-2">
+                                            <Link to="/projects">
+                                                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl cursor-pointer">
+                                                    My Projects
+                                                </h2>
+                                            </Link>
+                                            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                                Here are a few of my most recent projects. For the full list, please visit the projects section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+
+                                        <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization" target="_blank" rel="noopener noreferrer" className="group">
+                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                                <img
+                                                    alt="Project 1"
+                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                                    height="250"
+                                                    src="src\assets\Project1.png"
+                                                    width="350"
+                                                />
+                                                <h3 className="text-lg font-bold">ALU System Desgin</h3>
+                                                <p className="text-sm text-gray-500">Designed a working ALU system with Vivado and Verilog</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="https://github.com/AbdullahSh20/Database-Course-Project" target="_blank" rel="noopener noreferrer" className="group">
+                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                                <img
+                                                    alt="Project 2"
+                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                                    height="250"
+                                                    src="src\assets\Project2.png"
+                                                    width="350"
+                                                />
+                                                <h3 className="text-lg font-bold">Full Stack Website</h3>
+                                                <p className="text-sm text-gray-500">Wrote a Full Stack website using Flask, React, MySQL</p>
+                                            </div>
+                                        </a>
+
+                                        <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4" target="_blank" rel="noopener noreferrer" className="group">
+                                            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+                                                <img
+                                                    alt="Project 3"
+                                                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
+                                                    height="250"
+                                                    src="src\assets\Project3.png"
+                                                    width="350"
+                                                />
+                                                <h3 className="text-lg font-bold">Routing Algorithms Simulator</h3>
+                                                <p className="text-sm text-gray-500">Wrote a routing algorithms simulator using python</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
