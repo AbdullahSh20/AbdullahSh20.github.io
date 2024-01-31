@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
 
     return (
         <a href={githubLink} target="_blank" rel="noopener noreferrer" className="group">
-            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+            <div className="grid gap-1 transform transition-transform group-hover:scale-105 bg-gray-200 rounded-lg shadow-xl p-4">
                 <img
                     alt={title}
                     className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"

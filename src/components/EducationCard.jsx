@@ -7,7 +7,7 @@ export default function EducationCard({ university, degree, field, duration, ima
                 <img
                     alt={`${university} Logo`}
                     className="w-24 h-24 object-contain"
-                    src={imageUrl || '/placeholder.svg'}
+                    src={imageUrl}
                     style={{
                         aspectRatio: "100/100",
                         objectFit: "contain",
