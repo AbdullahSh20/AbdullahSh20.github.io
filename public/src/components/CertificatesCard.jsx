@@ -8,7 +8,7 @@ const CertificateCard = ({ certificate }) => {
             <div className='p-6'>
                 <img
                     alt={title}
-                    className="aspect-[3/2] rounded-t-xl max-w-[300px] max-h-[350px] object-cover"
+                    className="aspect-[3/2] rounded-t-xl max-w-[300px] max-h-[200px] object-cover"
                     src={imageUrl}
                 />
                 <h3 className="text-lg font-bold">{title}</h3>

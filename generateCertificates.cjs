@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const certificatesRootDirectory = path.join(__dirname, 'src', 'assets', 'Certificates');
+const certificatesRootDirectory = path.join(__dirname, 'public', 'src', 'assets', 'Certificates');
 
 const certificatesData = [];
 
@@ -27,7 +27,7 @@ const organizationDirectories = fs.readdirSync(certificatesRootDirectory, { with
 
 organizationDirectories.forEach(processOrganizationDirectory);
 
-const outputFilePath = path.join(__dirname, 'src', 'assets', 'certificatesData.json');
+const outputFilePath = path.join(__dirname, 'public', 'src', 'assets', 'certificatesData.json');
 fs.writeFileSync(outputFilePath, JSON.stringify(certificatesData, null, 2));
 
 console.log(`Certificates data written to ${outputFilePath}`);
