@@ -48,7 +48,7 @@ function EducationPage() {
                             </p>
                         </div>
                         <div className='flex items-center justify-center'>
-                            <div className="grid items-start gap-16 grid-cols-4 pt-8">
+                            <div className="grid place-items-stretch justify-center gap-16 grid-cols-4 pt-8">
                                 {certificates.map((certificate, index) => (
                                     <CertificateCard key={index} certificate={certificate} />
                                 ))}

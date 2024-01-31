@@ -4,12 +4,11 @@ const CertificateCard = ({ certificate }) => {
     const { title, imageUrl, PDF } = certificate;
 
     return (
-        <a href={`../src/assets/Certificates/${PDF}`} target="_blank" rel="noopener noreferrer" className="group">
-            <div className="grid gap-1 transform transition-transform group-hover:scale-105">
+        <a href={`../src/assets/Certificates/${PDF}`} target="_blank" rel="noopener noreferrer" className='grid-item bg-gray-100 rounded-lg transform transition-transform hover:scale-105 shadow-xl flex flex-col items-center justify-center mx-auto'>
+            <div className='p-6'>
                 <img
                     alt={title}
-                    className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl max-w-[350px] max-h-[350px] object-cover"
-                    height="200"
+                    className="aspect-[3/2] rounded-t-xl max-w-[300px] max-h-[350px] object-cover"
                     src={imageUrl}
                 />
                 <h3 className="text-lg font-bold">{title}</h3>
