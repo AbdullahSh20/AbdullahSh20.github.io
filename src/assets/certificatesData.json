@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Google Developers ML Bootcamp",
+    "imageUrl": "src/assets/Google.png",
+    "PDF": "Google/Google Developers ML Bootcamp.pdf"
+  },
+  {
+    "title": "Tensorflow developer",
+    "imageUrl": "src/assets/TensorFlow.png",
+    "PDF": "TensorFlow/Tensorflow developer.pdf"
+  },
+  {
+    "title": "Convolutional Neural Networks in TensorFlow",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Convolutional Neural Networks in TensorFlow.pdf"
+  },
+  {
+    "title": "Convolutional Neural Networks",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Convolutional Neural Networks.pdf"
+  },
+  {
+    "title": "Improving Deep Neural Networks Hyperparameter",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Improving Deep Neural Networks Hyperparameter.pdf"
+  },
+  {
+    "title": "Introduction to TensorFlow for Artificial",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Introduction to TensorFlow for Artificial.pdf"
+  },
+  {
+    "title": "Natural Language Processing in TensorFlow",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Natural Language Processing in TensorFlow.pdf"
+  },
+  {
+    "title": "Neural Networks and Deep Learning",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Neural Networks and Deep Learning.pdf"
+  },
+  {
+    "title": "Sequences, Time Series and Prediction",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Sequences, Time Series and Prediction.pdf"
+  },
+  {
+    "title": "Structuring Machine Learning Projects",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Structuring Machine Learning Projects.pdf"
+  },
+  {
+    "title": "Tensorflow specialization",
+    "imageUrl": "src/assets/DeepLearning.AI.png",
+    "PDF": "DeepLearning.AI/Tensorflow specialization.pdf"
+  }
+]
