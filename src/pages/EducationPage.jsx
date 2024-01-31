@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import EducationCard from '../components/EducationCard';
 import BootcampCard from '../components/BootcampCard';
-import ProjectCard from '../components/ProjectCard';
+import CertificateCard from '../components/CertificatesCard';
+import certificatesData from '../assets/certificatesData.json';
 
 function EducationPage() {
+    const [certificates, setCertificates] = useState([]);
+
+    useEffect(() => {
+        setCertificates(certificatesData);
+    }, []);
+
     return (
         <div className="flex flex-col items-center justify-center">
             <main className="flex flex-col gap-8 w-full">
@@ -42,8 +49,8 @@ function EducationPage() {
                         </div>
                         <div className='flex items-center justify-center'>
                             <div className="grid items-start gap-16 grid-cols-4 pt-8">
-                                {Certificates.map((Certificate, index) => (
-                                    <ProjectCard key={index} project={Certificate} />
+                                {certificates.map((certificate, index) => (
+                                    <CertificateCard key={index} certificate={certificate} />
                                 ))}
                             </div>
                         </div>
@@ -91,32 +98,6 @@ const topicsData = [
     "Computer Vision",
     "LSTMs and GRUs",
     "Time series and Sequence models",
-];
-const Certificates = [
-    {
-        title: 'ALU System Design',
-        description: 'Designed a working ALU system with Vivado and Verilog',
-        imageUrl: 'src/assets/Project1.png',
-        githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization',
-    },
-    {
-        title: 'Full Stack Website',
-        description: 'Wrote a Full Stack website using Flask, React, MySQL',
-        imageUrl: 'src/assets/Project2.png',
-        githubLink: 'https://github.com/AbdullahSh20/Database-Course-Project',
-    },
-    {
-        title: 'Routing Algorithms Simulator',
-        description: 'Wrote a routing algorithms simulator using Python',
-        imageUrl: 'src/assets/Project3.png',
-        githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4',
-    },
-    {
-        title: 'ALU System Design',
-        description: 'Designed a working ALU system with Vivado and Verilog',
-        imageUrl: 'src/assets/Project1.png',
-        githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization',
-    },
 ];
 
 export default EducationPage;

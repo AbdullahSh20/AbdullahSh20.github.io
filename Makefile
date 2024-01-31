@@ -1,4 +1,4 @@
-.PHONY: install build serve deploy clean
+.PHONY: install build serve deploy deploy-construction update-certificates clean
 
 install:
 	npm install
@@ -16,6 +16,9 @@ deploy-construction:
 	git checkout under-construction
 	npm run deploy
 	git checkout main
+
+update-certificates:
+	npm run generate-certificates
 
 clean:
 	rm -rf node_modules
