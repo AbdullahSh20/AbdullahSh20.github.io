@@ -7,7 +7,7 @@ export default function BootcampCard({ university, degree, duration, imageUrl, t
                 <img
                     alt={`${university} Logo`}
                     className="w-32 h-32 object-contain"
-                    src={imageUrl || '/placeholder.svg'}
+                    src={imageUrl}
                     style={{
                         aspectRatio: "100/100",
                         objectFit: "contain",

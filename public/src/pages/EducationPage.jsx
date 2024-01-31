@@ -28,7 +28,7 @@ function EducationPage() {
                                 degree="Bachelor of Engineering"
                                 field="Computer Engineering"
                                 duration="2021 - 2025"
-                                imageUrl="src\assets\ITUlogo.png"
+                                imageUrl="./src/assets/ITUlogo.png"
                                 courses={coursesData}
                             />
                             <br />
@@ -36,7 +36,7 @@ function EducationPage() {
                                 university="Inzva X Google Developers ML Bootcamp"
                                 degree="TensorFlow Developer Certificate"
                                 duration="2023 (4 months)"
-                                imageUrl="src\assets\InzvaLogo.png"
+                                imageUrl="./src/assets/InzvaLogo.png"
                                 topics={topicsData}
                             />
 

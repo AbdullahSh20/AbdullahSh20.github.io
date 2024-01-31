@@ -69,7 +69,7 @@ function HomePage() {
                                     </a>
                                 </div>
                                 <div className="flex items-center">
-                                    <a href="./../assets/CV.pdf" className="flex items-center justify-center" target="_blank" rel="noopener noreferrer">
+                                    <a href="./src/assets/CV.pdf" className="flex items-center justify-center" target="_blank" rel="noopener noreferrer">
                                         <p className="mr-4 font-bold text-lg">My CV:</p>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ function HomePage() {
                             <div className="flex items-center justify-center">
                                 <img
                                     className="rounded max-w-[350px] max-h-[350px] object-cover"
-                                    src="./../assets/AbdullahShamout.jpg"
+                                    src="./src/assets/AbdullahShamout.jpg"
                                     alt="Abdullah Shamout"
                                 />
                             </div>
@@ -114,7 +114,7 @@ function HomePage() {
                                         alt="University Logo"
                                         className="w-24 h-24 object-contain"
                                         height="100"
-                                        src="./../assets/ITUlogo.png"
+                                        src="./src/assets/ITUlogo.png"
                                         style={{
                                             aspectRatio: "100/100",
                                             objectFit: "contain",
@@ -178,7 +178,7 @@ function HomePage() {
                                         alt="Project 1"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./../assets/Project1.png"
+                                        src="./src/assets/Project1.png"
                                         width="350"
                                     />
                                     <h3 className="text-lg font-bold">ALU System Desgin</h3>
@@ -192,7 +192,7 @@ function HomePage() {
                                         alt="Project 2"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./../assets/Project2.png"
+                                        src="./src/assets/Project2.png"
                                         width="350"
                                     />
                                     <h3 className="text-lg font-bold">Full Stack Website</h3>
@@ -206,7 +206,7 @@ function HomePage() {
                                         alt="Project 3"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./../assets/Project3.png"
+                                        src="./src/assets/Project3.png"
                                         width="350"
                                     />
                                     <h3 className="text-lg font-bold">Routing Algorithms Simulator</h3>
