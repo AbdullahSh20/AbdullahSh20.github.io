@@ -1,26 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import SkillIcon from './SkillIcon';
 
-const ExperienceCard = ({ companyName, position, description, duration, to }) => {
+const ExperienceCard = ({ companyName, position, description, duration, skills }) => {
     return (
-        <div className="w-full max-w-xl bg-gray-100 shadow-2xl rounded-lg overflow-hidden ">
-            <div className="flex items-start p-6">
-                <WorkflowIcon className="h-12 w-12 text-gray-400" />
-                <div className="ml-4">
-                    <h3 className="text-xl font-semibold text-gray-700 ">{position} at {companyName}</h3>
-                    <p className="text-gray-600">{description}</p>
+        <div className="w-full max-w-2xl bg-gray-100 shadow-xl rounded-lg">
+            <div className="flex justify-start p-6">
+                <div>
+                    <WorkflowIcon className="h-12 w-12 text-gray-400 mr-12" />
+                </div>
+                <div>
+                    <h2 className="text-xl font-semibold text-gray-700 text-start">{position} at {companyName}</h2>
+                    <p className="text-gray-600 text-start">{description}</p>
                 </div>
             </div>
-            <div className="px-6 pb-4">
-                <p className="text-sm text-gray-500 ">Duration: {duration}</p>
-                <Link to={to}>
-                    <button
-                        className="mt-3 w-full px-6 py-2 text-xs font-medium leading-6 text-center text-white uppercase transition bg-gray-700 rounded shadow ripple hover:shadow-lg hover:bg-gray-800 focus:outline-none"
-                    >
-                        View Details
-                    </button>
-                </Link>
-
+            <div className='flex flex-row pl-28'>
+                {skills.map((icon, index) => (
+                    <SkillIcon key={index} icon={icon} />
+                ))}
+            </div>
+            <div className="flex flex-row pl-28 pb-4">
+                <p className="text-sm text-gray-500">
+                    Duration: {duration}
+                </p>
             </div>
         </div>
     );
@@ -47,6 +48,7 @@ function WorkflowIcon(props) {
         </svg>
     )
 }
+
 
 
 export default ExperienceCard;

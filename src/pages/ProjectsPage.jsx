@@ -17,7 +17,7 @@ function ProjectsPage() {
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <h1 className="text-7xl font-bold bg-gray-100 mb-6 mt-6 p-12 shadow-lg border-2 rounded-lg p-4">
+                            <h1 className="text-7xl font-bold bg-gray-100 mb-6 mt-6 p-12 shadow-lg border-2 rounded-lg p-8">
                                 Coming Soon...
                             </h1>
                         </div>
