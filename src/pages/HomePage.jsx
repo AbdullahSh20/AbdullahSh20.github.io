@@ -22,7 +22,7 @@ function HomePage() {
                                     Hello, I'm <br /> Abdullah Shamout
                                 </h1>
                                 <p className="mx-auto max-w-[700px] text-gray-700 md:text-xl">
-                                    I'm a junior computer engineering student studying at Istanbul Technical University (ITU). I'm interested in Artificial Intelligence, Embedded Systems, and low-level programming.
+                                    I'm a junior computer engineering student studying at Istanbul Technical University (ITU). I'm currently interested in Artificial Intelligence and Backend Development.
                                 </p>
                                 <div className="flex items-center space-x-2 mt-4">
                                     <a href="https://github.com/AbdullahSh20" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
