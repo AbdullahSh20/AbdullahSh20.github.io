@@ -6,6 +6,9 @@ import { FaFilePdf } from "react-icons/fa6";
 import { SiTensorflow } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { SiJupyter } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+import { SiPytorch } from "react-icons/si";
 import ExperienceCard from '../components/ExperienceCard';
 import { Link } from 'react-router-dom';
 
@@ -135,7 +138,7 @@ function HomePage() {
                     </div>
                 </section>
 
-                <section className="w-full py-16 md:py-32 flex items-center justify-center m-0">
+                <section className="w-full py-16 md:py-16 flex items-center justify-center m-0">
                     <div className="container space-y-12 px-4 md:px-6">
                         <div className="flex flex-col items-center justify-center space-y-4 text-center">
                             <div className="space-y-2">
@@ -151,9 +154,18 @@ function HomePage() {
                             <ExperienceCard
                                 companyName="SiMiT Lab"
                                 position="Undergraduate Student Researcher"
-                                description="Working on Insects AI project by using Deep Learning techniques"
+                                description={
+                                    <div>
+                                        <p>• Developed several insect classification and identification models using TensorFlow and PyTorch</p>
+                                        <p>• Worked with multi-label classification models that work on a taxonomic level</p>
+                                        <p>• Employed probabilistic prediction thresholds and utilized transfer learning</p>
+                                        <p>• Did an extensive literature review of state of the art employed technologies in the field</p>
+                                        <p>• Utilized docker to containerize the models and turn them into usable algorithms</p>
+                                        <p>• Joined the DIOPSIS challenge and represented the lab in the competition</p>
+                                    </div>
+                                }
                                 duration="Nov 2023 - Present"
-                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />]}
+                                skills={[<SiTensorflow />, <SiPytorch />, <FaPython />, <SiJupyter />, <FaGitAlt />, <FaDocker />]}
                             />
                         </div>
                     </div>

@@ -18,6 +18,12 @@ function Navbar() {
                 <Link to="/projects" className="navbar-link hover:underline text-base lg:text-custom">
                     Projects
                 </Link>
+                <Link to="/activities" className="navbar-link hover:underline text-base lg:text-custom">
+                    Activities
+                </Link>
+                <Link to="/blog" className="navbar-link hover:underline text-base lg:text-custom">
+                    Blog
+                </Link>
             </nav>
         </header>
     );
