@@ -8,6 +8,8 @@ import { SiDotnet } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiPytorch } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 
 function ExperiencesPage() {
     return (
@@ -23,14 +25,29 @@ function ExperiencesPage() {
                             <ExperienceCard
                                 companyName="SiMiT Lab"
                                 position="Undergraduate Student Researcher"
-                                description="Working on Insects AI project by using Deep Learning techniques"
+                                description={
+                                    <div>
+                                        <p>• Developed several insect classification and identification models using TensorFlow and PyTorch</p>
+                                        <p>• Worked with multi-label classification models that work on a taxonomic level</p>
+                                        <p>• Employed probabilistic prediction thresholds and utilized transfer learning</p>
+                                        <p>• Did an extensive literature review of state of the art employed technologies in the field</p>
+                                        <p>• Utilized docker to containerize the models and turn them into usable algorithms</p>
+                                        <p>• Joined the DIOPSIS challenge and represented the lab in the competition</p>
+                                    </div>
+                                }
                                 duration="Nov 2023 - Present"
-                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />]}
+                                skills={[<SiTensorflow />, <SiPytorch />, <FaPython />, <SiJupyter />, <FaGitAlt />, <FaDocker />]}
                             />
                             <ExperienceCard
                                 companyName="RealSoft Advanced Applications"
                                 position="Software Developer Intern"
-                                description="Worked on mobile application development using Flutter and API development using .NET Core and MySQL"
+                                description={
+                                    <div>
+                                        <p>• Developed a product supplier-retailer application with the mobile development team using flutter</p>
+                                        <p>• Developed some APIs for the supplier-retailer application using the .NET framework</p>
+                                        <p>• Utilized MySQL as the database management system and worked on some structural migrations</p>
+                                    </div>
+                                }
                                 duration="Jul 2023 - Sept 2023"
                                 skills={[<SiFlutter />, <FaGitAlt />, <SiCsharp />, <SiMysql />, <SiDotnet />]}
                             />

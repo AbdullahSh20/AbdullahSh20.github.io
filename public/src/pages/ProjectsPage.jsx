@@ -16,10 +16,12 @@ function ProjectsPage() {
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <h1 className="text-7xl font-bold bg-gray-100 mb-6 mt-6 p-12 shadow-lg border-2 rounded-lg p-8">
-                                Coming Soon...
-                            </h1>
-                        </div>
+                            <div className="grid place-items-stretch justify-center gap-16 grid-cols-3 pt-8">
+                                    {Personalprojects.map((project, index) => (
+                                        <ProjectCard key={index} project={project} />
+                                    ))}
+                                </div>
+                            </div>
                         <div className="mt-20 space-y-4 text-center">
                             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Notable Coursework</h2>
                             <p className="max-w-[800px] mx-auto text-gray-500 text-base/relaxed xl:text-xl/relaxed ">
@@ -39,6 +41,16 @@ function ProjectsPage() {
         </div >
     );
 }
+
+const Personalprojects = [
+    {
+        title: 'This Portfolio webpage :D',
+        description: 'Using react, tailwindcss, and Vite, I developed this portfolio website. The website is fully responsive, and contains all the information about me, my projects, my experiences, and my education. The website also has a blog section that I will be updating regularly.',
+        imageUrl: './src/assets/PersonalProjects/Portfolio.png',
+        githubLink: 'https://abdullahsh20.github.io/'
+    },
+]
+
 const projects = [
     {
         title: 'ALU System design',
