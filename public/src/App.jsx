@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
@@ -10,7 +10,7 @@ import BlogPage from './pages/BlogPage';
 import ActivitiesPage from './pages/ActivitiesPage';
 
 function App() {
-  return (
+    return (
     <div className='app flex flex-col min-h-screen'>
       <Router>
         <Navbar />
@@ -22,6 +22,7 @@ function App() {
             <Route path="/education" element={<EducationPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/activities" element={<ActivitiesPage />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
       </Router>
