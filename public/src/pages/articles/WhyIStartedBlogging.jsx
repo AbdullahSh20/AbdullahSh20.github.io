@@ -8,10 +8,10 @@ export default function WhyIStartedBlogging() {
           <div className="max-w-3xl mx-auto space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-                Taxing Laughter: The Joke Tax Chronicles
+                Why I started Blogging?
               </h1>
               <div className="flex items-center space-x-4 text-gray-500 ">
-                <div>By John Doe</div>
+                <div>By Abdullah Shamout</div>
                 <div className="h-4 w-px bg-gray-300" />
                 <div>May 19, 2024</div>
               </div>
@@ -19,137 +19,106 @@ export default function WhyIStartedBlogging() {
           </div>
         </div>
       </section>
-      <div className="container py-12 md:py-16 lg:py-20">
+      <div className="container mx-auto py-12 md:py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-12">
           <article className="prose prose-gray">
-            <h2>The Joke Tax</h2>
+            <h2 id="backstory" className="text-xl font-bold tracking-tight md:text-2xl lg:text-3xl">Backstory</h2>
             <p>
-              Once upon a time, in a far-off land, there was a very lazy king who spent all day lounging on his throne.
-              One day, his advisors came to him with a problem: the kingdom was running out of money.
+              During my time at university, I faced many struggles as a freshman, particularly with managing my time. Balancing a normal social life, excelling in my studies, maintaining my hobbies, and exploring my interests all at once proved to be challenging. Thankfully, I met some great people during that period, and we built strong friendships. With their support, I managed to get through that difficult time and learned a lot.
             </p>
             <p>
-              The king thought long and hard, and finally came up with a brilliant plan: he would tax the jokes in the
-              kingdom.
+            After some time had passed, I reflected on my freshman year. I figured out what was missing, how it could have been better, and how I could have tackled those struggles more efficiently. Now, as I write this blog, I am finishing my junior year and heading into the summer before my senior year.
             </p>
-            <blockquote>
-              "After all," he said, "everyone enjoys a good joke, so it's only fair that they should pay for the
-              privilege."
-            </blockquote>
-            <h3>The Joke Tax Levels</h3>
-            <ul>
-              <li>1st level of puns: 5 gold coins</li>
-              <li>2nd level of jokes: 10 gold coins</li>
-              <li>3rd level of one-liners : 20 gold coins</li>
-            </ul>
-            <p>
-              As a result, people stopped telling jokes, and the kingdom fell into a gloom. But there was one person who
-              refused to let the king's foolishness get him down: a court jester named Jokester.
-            </p>
+            <figure className="my-4">
             <img
-              alt="Jokester"
-              className="rounded-lg"
-              height={400}
-              src="/placeholder.svg"
-              style={{
-                aspectRatio: "800/400",
-                objectFit: "cover",
-              }}
-              width={800}
+              alt="castle"
+              className="aspect-video overflow-hidden rounded-lg object-cover"
+              height="480"
+              src="/src/assets/Blogs/ITUSUNSET.jpg"
+              width="720"
             />
+            <figcaption className="mt-1 text-gray-700 italic font-semibold">Sunset from Mustafa Inan Library in ITU</figcaption>
+          </figure>
+            <h2 id="What I needed" className="text-xl font-bold tracking-tight md:text-2xl lg:text-3xl">What I needed</h2>
             <p>
-              Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place:
-              under the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem
-              to stop Jokester.
+              Looking back, I realize I was in great need of a mentor or an upperclassman—someone who could guide me through my challenges, tell me what to focus on, and what to ignore. I searched for such a person but couldn't find one. The friends I made during my freshman year were fantastic and helped me build an amazing social life, especially as an international student, which might have been harder without them. However, in other aspects of my life, they couldn't offer much insight, as things seemed to come easily for them when I asked for advice.
             </p>
             <p>
-              And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that
-              they couldn't help but laugh. And once they started laughing, they couldn't stop.
+              At the same time, I needed a roadmap for managing my technical classes. I was studying computer engineering with no previous experience in programming. In high school, I used to score high grades without much effort because my teachers were very good and attentive. However, in university, that luxury was absent due to the large number of students, so I did not have good study habits. I needed to figure out how to study efficiently and manage my time.
+            </p>
+            <h2 id="Helping others" className="text-xl font-bold tracking-tight md:text-2xl lg:text-3xl">Helping Others</h2>
+            <p>
+              By the end of the first semester of my sophomore year, I had figured out how to manage my time better. I was doing well in my classes and had a good social life. After achieving what I wanted, I felt compelled to help others facing similar difficulties. I started by posting my notes, solutions, projects, and tips on how to study efficiently and where to find the best resources for each course. I uploaded this information to a GitHub repository at the end of each semester so that others could benefit from it when they took the same courses. This way, they could learn from my mistakes.
+            </p>
+            <p>
+              At that time, I didn't think much of it; I just posted what I had gathered throughout the semester and went on with my life. However, after some time, I started receiving messages and notifications from people who found what I posted helpful. They would ask questions about what I shared or simply thank me. It was a great feeling. Doing something selflessly and seeing it help others made me feel good, and I wanted to continue doing it.
+            </p>
+            <h2 id="Currently" className="text-xl font-bold tracking-tight md:text-2xl lg:text-3xl">Currently</h2>
+            <p>
+              I am currently in my junior year and still posting my notes, solutions, and tips on GitHub. This semester, I started going to the gym, which has been a great decision. I am learning a lot about the human body, from nutrition to anatomy, and how to train efficiently. Additionally, I picked up book reading again and I am learning a lot. During this period, I felt that documenting my journey regarding my school life, gym life, and personal life would be a great idea. Documenting what I am going through and what I am learning will help me remember and internalize it more, reflect on it, look back on it in the future, and, who knows, maybe it will help someone else!
+            </p>
+            <h2 className="text-xl font-bold tracking-tight md:text-2xl lg:text-3xl">Conclusion</h2>
+            <p>
+            My aim with this blog is to document my journey and share what I am learning with others. It will help me keep track of my learning and internalize it. It will serve as a journal for me to look back on in the future. Additionally, it will help others who are going through similar experiences. I hope this blog will be helpful to you and that you will enjoy reading it.
             </p>
           </article>
           <div className="space-y-8">
-            <div className="space-y-4">
+            <div className="space-y-4 rounded-lg border bg-white p-6 shadow-sm">
               <h3 className="text-lg font-bold">Table of Contents</h3>
               <nav className="space-y-2">
-                <Link
+                <a
                   className="block text-gray-500 hover:text-gray-900  "
-                  href="#"
+                  href="#backstory"
                 >
-                  The Joke Tax
-                </Link>
-                <Link
+                  Backstory
+                </a>
+                <a
                   className="block text-gray-500 hover:text-gray-900  "
-                  href="#"
+                  href="#What I needed"
                 >
-                  The Joke Tax Levels
-                </Link>
-                <Link
+                  What I needed
+                </a>
+                <a
                   className="block text-gray-500 hover:text-gray-900  "
-                  href="#"
+                  href="#Helping others"
                 >
-                  Jokester's Revenge
-                </Link>
+                  Helping Others
+                </a>
+                <a
+                  className="block text-gray-500 hover:text-gray-900  "
+                  href="#Currently"
+                >
+                  Currently
+                </a>
+                <a
+                  className="block text-gray-500 hover:text-gray-900  "
+                  href="#Conclusion"
+                >
+                  Conclusion
+                </a>
               </nav>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Related Posts</h3>
-              <div className="space-y-3">
-                <Link className="flex items-center space-x-4" href="#">
-                  <img
-                    alt="Related Post"
-                    className="rounded-md"
-                    height={80}
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "80/80",
-                      objectFit: "cover",
-                    }}
-                    width={80}
-                  />
-                  <div className="space-y-1">
-                    <h4 className="text-sm font-medium">The Rise of Pun-ishment</h4>
-                    <p className="text-sm text-gray-500 ">
-                      Exploring the history of the Joke Tax and its impact on the kingdom.
-                    </p>
-                  </div>
-                </Link>
-                <Link className="flex items-center space-x-4" href="#">
-                  <img
-                    alt="Related Post"
-                    className="rounded-md"
-                    height={80}
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "80/80",
-                      objectFit: "cover",
-                    }}
-                    width={80}
-                  />
-                  <div className="space-y-1">
-                    <h4 className="text-sm font-medium">The Jester's Revenge</h4>
-                    <p className="text-sm text-gray-500 ">
-                      How Jokester's antics turned the tide against the Joke Tax.
-                    </p>
-                  </div>
-                </Link>
+          <div className="rounded-lg border bg-white p-6 shadow-sm">
+            <h3 className="text-lg font-semibold">Tags</h3>
+            <div className="mt-4 space-y-2">
+              <div className="inline-flex items-center text-sm font-medium hover:underline mr-2" href="#">
+                <TagIcon className="h-4 w-4 text-gray-500" />
+                <span>Blogging</span>
+              </div>
+              <div className="inline-flex items-center text-sm font-medium hover:underline mr-2" href="#">
+                <TagIcon className="h-4 w-4 text-gray-500" />
+                <span>University</span>
+              </div>
+              <div className="inline-flex items-center text-sm font-medium hover:underline mr-2" href="#">
+                <TagIcon className="h-4 w-4 text-gray-500" />
+                <span>Freshman</span>
+              </div>
+              <div className="inline-flex items-center text-sm font-medium hover:underline mr-2" href="#">
+                <TagIcon className="h-4 w-4 text-gray-500" />
+                <span>Time management</span>
               </div>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold">Share this post</h3>
-              <div className="flex items-center space-x-4">
-                <Link className="text-gray-500 hover:text-gray-900  " href="#">
-                  <TwitterIcon className="h-5 w-5" />
-                </Link>
-                <Link className="text-gray-500 hover:text-gray-900  " href="#">
-                  <FacebookIcon className="h-5 w-5" />
-                </Link>
-                <Link className="text-gray-500 hover:text-gray-900  " href="#">
-                  <LinkedinIcon className="h-5 w-5" />
-                </Link>
-                <Link className="text-gray-500 hover:text-gray-900  " href="#">
-                  <CopyIcon className="h-5 w-5" />
-                </Link>
-              </div>
-            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -157,7 +126,7 @@ export default function WhyIStartedBlogging() {
   )
 }
 
-function CopyIcon(props) {
+function TagIcon(props) {
   return (
     <svg
       {...props}
@@ -171,70 +140,8 @@ function CopyIcon(props) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
-      <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
-    </svg>
-  )
-}
-
-
-function FacebookIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  )
-}
-
-
-function LinkedinIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect width="4" height="12" x="2" y="9" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  )
-}
-
-
-function TwitterIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+      <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+      <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
     </svg>
   )
 }
