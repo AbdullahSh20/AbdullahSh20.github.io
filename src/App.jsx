@@ -8,6 +8,7 @@ import ExperiencesPage from './pages/ExperiencesPage';
 import EducationPage from './pages/EducationPage';
 import BlogPage from './pages/BlogPage';
 import ActivitiesPage from './pages/ActivitiesPage';
+import WhyIStartedBlogging from './pages/articles/WhyIStartedBlogging';
 
 function App() {
     return (
@@ -23,6 +24,9 @@ function App() {
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/activities" element={<ActivitiesPage />} />
             <Route path="*" element={<Navigate to="/" />} />
+
+            {/*from here and downowards I will have my blog article routes*/}
+            <Route path="/blog/WhyIStartedBlogging" element={<WhyIStartedBlogging />} />
           </Routes>
         </div>
       </Router>
