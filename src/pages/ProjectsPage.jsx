@@ -49,6 +49,12 @@ const Personalprojects = [
         imageUrl: './src/assets/PersonalProjects/Portfolio.png',
         githubLink: 'https://abdullahsh20.github.io/'
     },
+    {
+        title: 'DIOPSIS Challenge',
+        description: 'Using Python, PyTorch, and Tensorflow me and my teammate Kenan developed a deep learning model that classifies insects based on their images into their expected taxonomic ordering levels. The model was trained on the DIOPSIS dataset as it was aimed for that challenge, Docker was used to submit the algorithm to the submission platform.',
+        imageUrl: './src/assets/PersonalProjects/DIOPSIS.jpg',
+        githubLink: 'https://github.com/AbdullahSh20/DIOPSIS' 
+    }
 ]
 
 const projects = [
@@ -81,6 +87,12 @@ const projects = [
         description: 'Using C, I developed a multithreaded web server that supports multiple clients, multiple requests, and multiple file types. The server was developed using the system calls socket, bind, listen, accept, and read, and was documented using markdown files. And the multithreading was implemented using the threads and semaphores.',
         imageUrl: './src/assets/Coursework/Coursework5.png',
         githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Operating%20Systems/HW3'
+    },
+    {
+        title: 'SocialShoppers application interface',
+        description: 'Using TypeScript, React, and tailwindcss, I developed a shopping application interface that contains a product list, a product detail page, a shopping cart, checkout page, and it incorporates social media features, thus there is a feed and a community page. The application was made as a prototype for an innovation and entrepreneurship course with the code BLG442E in ITU.',
+        imageUrl: './src/assets/Coursework/Coursework6.png',
+        githubLink: 'https://github.com/AbdullahSh20/SocialShoppers'
     }
 ]
 
