@@ -16,7 +16,7 @@ function ProjectsPage() {
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <div className="grid place-items-stretch justify-center gap-16 grid-cols-3 pt-8">
+                            <div className="grid place-items-stretch justify-center gap-12 grid-cols-3 pt-8">
                                     {Personalprojects.map((project, index) => (
                                         <ProjectCard key={index} project={project} />
                                     ))}
@@ -78,7 +78,7 @@ const projects = [
     },
     {
         title: 'Multithreaded Web Server',
-        description: 'Using C, I developed a multithreaded web server that supports multiple clients, multiple requests, and multiple file types. The server was developed using the system calls socket, bind, listen, accept, and read, and was documented using markdown files. And the multithreading was implemented using the threads and semaphores',
+        description: 'Using C, I developed a multithreaded web server that supports multiple clients, multiple requests, and multiple file types. The server was developed using the system calls socket, bind, listen, accept, and read, and was documented using markdown files. And the multithreading was implemented using the threads and semaphores.',
         imageUrl: './src/assets/Coursework/Coursework5.png',
         githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Operating%20Systems/HW3'
     }
