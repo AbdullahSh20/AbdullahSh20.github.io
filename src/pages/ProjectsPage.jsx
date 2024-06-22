@@ -69,6 +69,18 @@ const projects = [
         description: 'Using Python, Tkinter, and NetworkX, I developed a routing algorithm simulator that simulates the Dijkstra and Bellman-Ford algorithms. The simulator allows the user to create a random graph with random connections and edge weights, and run the algorithms on the graph. The simulator also allows the user to higlight the shortest path between two nodes.',
         imageUrl: './src/assets/Coursework/Coursework3.png',
         githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4'
+    },
+    {
+        title: 'Command line Shell',
+        description: 'Using C, I developed a command line shell that supports multiple commands, command chaining, and command piping. The shell also supports the execution of system commands via its prompt mode and the execution of scripts using its batch mode. The shell was developed using the system calls fork, exec, and wait, and was documented using markdown files.',
+        imageUrl: './src/assets/Coursework/Coursework4.png',
+        githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Operating%20Systems/HW1'
+    },
+    {
+        title: 'Multithreaded Web Server',
+        description: 'Using C, I developed a multithreaded web server that supports multiple clients, multiple requests, and multiple file types. The server was developed using the system calls socket, bind, listen, accept, and read, and was documented using markdown files. And the multithreading was implemented using the threads and semaphores',
+        imageUrl: './src/assets/Coursework/Coursework5.png',
+        githubLink: 'https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Operating%20Systems/HW3'
     }
 ]
 

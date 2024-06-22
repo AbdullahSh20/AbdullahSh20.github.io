@@ -81,9 +81,16 @@ const coursesData = [
     'Microprocessor Systems',
     'Database Systems',
     'Analysis of Algorithms I',
+    'Analysis of Algorithms II',
+    'Operating Systems',
+    'Computer Architecture',
+    'Signals and Systems',
     'Computer Communications',
     'Microcomputer Lab.',
     'Electronics Lab.',
+    'Economics',
+    'Innovation and Management for IT',
+    'Technical Communication',
 ];
 const topicsData = [
     "Deep Learning",
