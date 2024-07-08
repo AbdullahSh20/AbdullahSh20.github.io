@@ -54,6 +54,12 @@ const Personalprojects = [
         description: 'Using Python, PyTorch, and Tensorflow me and my teammate Kenan developed a deep learning model that classifies insects based on their images into their expected taxonomic ordering levels. The model was trained on the DIOPSIS dataset as it was aimed for that challenge, Docker was used to submit the algorithm to the submission platform.',
         imageUrl: './src/assets/PersonalProjects/DIOPSIS.jpg',
         githubLink: 'https://github.com/AbdullahSh20/DIOPSIS' 
+    },
+    {
+        title: 'Imapulation',
+        description: 'Using Python, OpenCV, Tkinter, and Tensorflow, I developed a program that manipulates images. The program was mainly done to fulfill the need that I had for extracting human subjects from images into having a transparent background. The program also contains features like an interactive GUI for mask editing besides its remove background feature.',
+        imageUrl: './src/assets/PersonalProjects/Imapulation.png',
+        githubLink: 'https://github.com/AbdullahSh20/imapulation'
     }
 ]
 
