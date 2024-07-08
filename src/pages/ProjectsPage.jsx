@@ -51,7 +51,7 @@ const Personalprojects = [
     },
     {
         title: 'DIOPSIS Challenge',
-        description: 'Using Python, PyTorch, and Tensorflow me and my teammate Kenan developed a deep learning model that classifies insects based on their images into their expected taxonomic ordering levels. The model was trained on the DIOPSIS dataset as it was aimed for that challenge, Docker was used to submit the algorithm to the submission platform.',
+        description: 'Using Python, PyTorch, and Tensorflow me and my teammate Kenan developed deep learning models that detect and classifies insects based on their images into their expected taxonomic ordering levels. The models were trained on the DIOPSIS dataset as it was aimed for that challenge, Docker was used to submit the algorithm to the submission platform.',
         imageUrl: './src/assets/PersonalProjects/DIOPSIS.jpg',
         githubLink: 'https://github.com/AbdullahSh20/DIOPSIS' 
     },
