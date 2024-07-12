@@ -21,7 +21,7 @@ function ExperiencesPage() {
                         <p className="max-w-[700px] mx-auto text-gray-500 xl:text-xl/relaxed pb-2">
                             All my job/internship experiences that I had over the years.
                         </p>
-                        <div className="flex flex-col items-center space-y-8">
+                        <div className="flex flex-col items-center space-y-8 w-full">
                             <ExperienceCard
                                 companyName="SiMiT Lab"
                                 position="Undergraduate Student Researcher"

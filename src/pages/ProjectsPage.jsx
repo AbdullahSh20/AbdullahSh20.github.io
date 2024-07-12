@@ -16,7 +16,7 @@ function ProjectsPage() {
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-2">
-                            <div className="grid place-items-stretch justify-center gap-12 grid-cols-3 pt-8">
+                            <div className="grid place-items-stretch justify-center gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-8">
                                     {Personalprojects.map((project, index) => (
                                         <ProjectCard key={index} project={project} />
                                     ))}
@@ -29,7 +29,7 @@ function ProjectsPage() {
                             </p>
                         </div>
                         <div className='flex items-center justify-center'>
-                            <div className="grid place-items-stretch justify-center gap-16 grid-cols-3 pt-8">
+                            <div className="grid place-items-stretch justify-center gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-8">
                                 {projects.map((project, index) => (
                                     <ProjectCard key={index} project={project} />
                                 ))}

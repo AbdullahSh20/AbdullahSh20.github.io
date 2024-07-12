@@ -12,8 +12,8 @@ function EducationPage() {
     }, []);
 
     return (
-        <div className="flex flex-col items-center justify-center">
-            <main className="flex flex-col gap-8 w-full">
+        <div className="flex flex-col items-center justify-center px-4">
+            <main className="flex flex-col gap-8 w-full max-w-7xl">
                 <section className="w-full py-12 flex items-center justify-center">
                     <div className="container px-4">
                         <div className="space-y-4 text-center">
@@ -22,7 +22,7 @@ function EducationPage() {
                                 A brief overview of my formal education.
                             </p>
                         </div>
-                        <div className="flex flex-col items-center space-y-2">
+                        <div className="flex flex-col items-center space-y-2 w-full">
                             <EducationCard
                                 university="Istanbul Technical University"
                                 degree="Bachelor of Engineering"
@@ -39,7 +39,6 @@ function EducationPage() {
                                 imageUrl="./src/assets/InzvaLogo.png"
                                 topics={topicsData}
                             />
-
                         </div>
                         <div className="mt-20 space-y-4 text-center">
                             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Certifications & Achievements</h2>
@@ -48,7 +47,7 @@ function EducationPage() {
                             </p>
                         </div>
                         <div className='flex items-center justify-center'>
-                            <div className="grid place-items-stretch justify-center gap-16 grid-cols-4 pt-8">
+                            <div className="grid place-items-stretch justify-center gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-8">
                                 {certificates.map((certificate, index) => (
                                     <CertificateCard key={index} certificate={certificate} />
                                 ))}
@@ -57,7 +56,7 @@ function EducationPage() {
                     </div>
                 </section>
             </main>
-        </div >
+        </div>
     );
 }
 
@@ -92,6 +91,7 @@ const coursesData = [
     'Innovation and Management for IT',
     'Technical Communication',
 ];
+
 const topicsData = [
     "Deep Learning",
     "Forward and backward propagation",
