@@ -192,20 +192,20 @@ function HomePage() {
                         </div>
                         <div className="mx-auto grid items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 grid-cols-1">
 
-                            <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization" target="_blank" rel="noopener noreferrer" className="group">
+                        <a href="https://github.com/AbdullahSh20/DIOPSIS" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
                                     <img
-                                        alt="Project 1"
+                                        alt="Project 3"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./src/assets/Project1.png"
+                                        src="./src/assets/PersonalProjects/DIOPSIS.jpg"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold text-center">ALU System Desgin</h3>
-                                    <p className="text-sm text-gray-500 text-center">Designed a working ALU system with Vivado and Verilog</p>
+                                    <h3 className="text-lg font-bold text-center">Diopsis Challenge</h3>
+                                    <p className="text-sm text-gray-500 text-center">Created Detection and Multilevel Classification models for insects</p>
                                 </div>
                             </a>
-
+                            
                             <a href="https://github.com/AbdullahSh20/Database-Course-Project" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
                                     <img
@@ -219,20 +219,20 @@ function HomePage() {
                                     <p className="text-sm text-gray-500 text-center">Wrote a Full Stack website using Flask, React, MySQL</p>
                                 </div>
                             </a>
-
-                            <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Communications/HW4" target="_blank" rel="noopener noreferrer" className="group">
+                            <a href="https://github.com/AbdullahSh20/imapulation" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
                                     <img
-                                        alt="Project 3"
+                                        alt="Project 1"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./src/assets/Project3.png"
+                                        src="./src/assets/PersonalProjects/Imapulation.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold text-center">Routing Algorithms Simulator</h3>
-                                    <p className="text-sm text-gray-500 text-center">Wrote a routing algorithms simulator using python</p>
+                                    <h3 className="text-lg font-bold text-center">Imapulation</h3>
+                                    <p className="text-sm text-gray-500 text-center">Created an image manipulation application using Deep Learning</p>
                                 </div>
                             </a>
+
                         </div>
 
                     </div>
