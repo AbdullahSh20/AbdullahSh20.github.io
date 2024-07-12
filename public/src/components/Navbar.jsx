@@ -9,17 +9,12 @@ function Navbar() {
     };
 
     return (
-        <header className="flex items-center h-16 px-4 border-b md:px-6 justify-between">
+        <header className="flex items-center h-16 px-4 border-b md:px-6">
             <Link to="/" className="flex items-center gap-2 text-lg font-semibold sm:text-base mr-4">
                 <HomeIcon className="h-6 w-6" />
                 <span className="sr-only">Home</span>
             </Link>
-            <div className="md:hidden">
-                <button onClick={toggleMenu} className="focus:outline-none">
-                    <MenuIcon className="h-6 w-6" />
-                </button>
-            </div>
-            <nav className={`fixed inset-0 bg-white z-10 p-4 pt-16 md:pt-0 md:relative md:p-0 md:bg-transparent transition-transform transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
+            <nav className={`fixed inset-0 bg-white z-10 p-4 pt-16 md:pt-0 md:relative md:p-0 md:bg-transparent transition-transform transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 flex-grow`}>
                 <ul className="flex flex-col md:flex-row items-center gap-5 md:gap-6 text-sm lg:text-base font-medium">
                     <li>
                         <Link to="/education" className="navbar-link hover:underline text-base lg:text-custom" onClick={() => setIsMenuOpen(false)}>
@@ -48,6 +43,11 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
+            <div className="md:hidden ml-auto">
+                <button onClick={toggleMenu} className="focus:outline-none">
+                    <MenuIcon className="h-6 w-6" />
+                </button>
+            </div>
         </header>
     );
 }
