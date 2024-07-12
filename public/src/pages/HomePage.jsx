@@ -24,7 +24,7 @@ function HomePage() {
 
                 <section className="w-full py-32 md:py-46 lg:py-54 flex items-center justify-center m-0">
                     <div className="px-4 md:px-6 space-y-10 xl:space-y-16">
-                        <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-2">
+                        <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-2 grid-cols-1">
                             <div className='flex flex-col  justify-center'>
                                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                                     Hello, I'm <br /> Abdullah Shamout
@@ -99,7 +99,7 @@ function HomePage() {
                             </div>
                             <div className="flex items-center justify-center">
                                 <img
-                                    className="rounded max-w-[350px] max-h-[350px] object-cover"
+                                    className="rounded max-w-full h-auto max-h-[350px] object-cover mx-auto"
                                     src="./src/assets/AbdullahShamout.jpg"
                                     alt="Abdullah Shamout"
                                 />
@@ -190,7 +190,7 @@ function HomePage() {
                                 </p>
                             </div>
                         </div>
-                        <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+                        <div className="mx-auto grid items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 grid-cols-1">
 
                             <a href="https://github.com/AbdullahSh20/ITU-COURSEWORK/tree/main/Computer%20Organization" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
@@ -201,8 +201,8 @@ function HomePage() {
                                         src="./src/assets/Project1.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold">ALU System Desgin</h3>
-                                    <p className="text-sm text-gray-500">Designed a working ALU system with Vivado and Verilog</p>
+                                    <h3 className="text-lg font-bold text-center">ALU System Desgin</h3>
+                                    <p className="text-sm text-gray-500 text-center">Designed a working ALU system with Vivado and Verilog</p>
                                 </div>
                             </a>
 
@@ -215,8 +215,8 @@ function HomePage() {
                                         src="./src/assets/Project2.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold">Full Stack Website</h3>
-                                    <p className="text-sm text-gray-500">Wrote a Full Stack website using Flask, React, MySQL</p>
+                                    <h3 className="text-lg font-bold text-center">Full Stack Website</h3>
+                                    <p className="text-sm text-gray-500 text-center">Wrote a Full Stack website using Flask, React, MySQL</p>
                                 </div>
                             </a>
 
@@ -229,8 +229,8 @@ function HomePage() {
                                         src="./src/assets/Project3.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold">Routing Algorithms Simulator</h3>
-                                    <p className="text-sm text-gray-500">Wrote a routing algorithms simulator using python</p>
+                                    <h3 className="text-lg font-bold text-center">Routing Algorithms Simulator</h3>
+                                    <p className="text-sm text-gray-500 text-center">Wrote a routing algorithms simulator using python</p>
                                 </div>
                             </a>
                         </div>
