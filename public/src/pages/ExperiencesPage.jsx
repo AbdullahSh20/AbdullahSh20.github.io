@@ -23,6 +23,21 @@ function ExperiencesPage() {
                         </p>
                         <div className="flex flex-col items-center space-y-8 w-full">
                             <ExperienceCard
+                                companyName="Beko Corporate/Arçelik A.Ş."
+                                position="Research and Development Intern"
+                                description={
+                                    <div>
+                                        <p>• Worked on the creation of a dataset that relates the designs of the PCBs of TVs and their emitted EMI and EMC</p>
+                                        <p>• Developed a machine learning model using TensorFlow for the prediction of emitted EMC and EMI by TVs</p>
+                                        <p>• Worked on creating an application to create the dataset using tkinter</p>
+                                        <p>• Dealt with multivariate series forecasting and dataset optimization</p>
+                                        <p>• Dealt with data visualization and preprocessing using pandas and seaborn</p>
+                                    </div>
+                                }
+                                duration={"Aug 2024 - Sept 2024"}
+                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />]}
+                            />
+                            <ExperienceCard
                                 companyName="SiMiT Lab"
                                 position="Undergraduate Student Researcher"
                                 description={
