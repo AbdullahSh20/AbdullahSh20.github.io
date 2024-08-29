@@ -10,6 +10,7 @@ import { SiMysql } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPytorch } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
+import { SiScikitlearn } from "react-icons/si";
 
 function ExperiencesPage() {
     return (
@@ -27,15 +28,15 @@ function ExperiencesPage() {
                                 position="Research and Development Intern"
                                 description={
                                     <div>
-                                        <p>• Worked on the creation of a dataset that relates the designs of the PCBs of TVs and their emitted EMI and EMC</p>
-                                        <p>• Developed a machine learning model using TensorFlow for the prediction of emitted EMC and EMI by TVs</p>
-                                        <p>• Worked on creating an application to create the dataset using tkinter</p>
-                                        <p>• Dealt with multivariate series forecasting and dataset optimization</p>
+                                        <p>• Worked on the creation of a dataset that relates the designs of TVs using multiple input features to their EMI signals</p>
+                                        <p>• Worked on creating an application to input the dataset into a compact form using tkinter</p>
+                                        <p>• Developed machine learning and deep learning models using TensorFlow and Sklearn for the prediction of EMI signals by the TVs</p>
+                                        <p>• Dealt with multivariate series forecasting, dataset optimization, and big data analysis</p>
                                         <p>• Dealt with data visualization and preprocessing using pandas and seaborn</p>
                                     </div>
                                 }
                                 duration={"Aug 2024 - Sept 2024"}
-                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />]}
+                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />, <SiScikitlearn />]}
                             />
                             <ExperienceCard
                                 companyName="SiMiT Lab"
@@ -50,7 +51,7 @@ function ExperiencesPage() {
                                         <p>• Joined the DIOPSIS challenge and represented the lab in the competition</p>
                                     </div>
                                 }
-                                duration="Nov 2023 - Present"
+                                duration="Nov 2023 - Jul 2024"
                                 skills={[<SiTensorflow />, <SiPytorch />, <FaPython />, <SiJupyter />, <FaGitAlt />, <FaDocker />]}
                             />
                             <ExperienceCard

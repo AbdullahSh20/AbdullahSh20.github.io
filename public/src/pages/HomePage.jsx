@@ -9,6 +9,7 @@ import { SiJupyter } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { SiPytorch } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
 import ExperienceCard from '../components/ExperienceCard';
 import { Link, useSearchParams, Navigate } from 'react-router-dom';
 
@@ -157,20 +158,19 @@ function HomePage() {
                                 </p>
                             </div>
                             <ExperienceCard
-                                companyName="SiMiT Lab"
-                                position="Undergraduate Student Researcher"
+                                companyName="Beko Corporate/Arçelik A.Ş."
+                                position="Research and Development Intern"
                                 description={
                                     <div>
-                                        <p>• Developed several insect classification and identification models using TensorFlow and PyTorch</p>
-                                        <p>• Worked with multi-label classification models that work on a taxonomic level</p>
-                                        <p>• Employed probabilistic prediction thresholds and utilized transfer learning</p>
-                                        <p>• Did an extensive literature review of state of the art employed technologies in the field</p>
-                                        <p>• Utilized docker to containerize the models and turn them into usable algorithms</p>
-                                        <p>• Joined the DIOPSIS challenge and represented the lab in the competition</p>
+                                        <p>• Worked on the creation of a dataset that relates the designs of TVs using multiple input features to their EMI signals</p>
+                                        <p>• Worked on creating an application to input the dataset into a compact form using tkinter</p>
+                                        <p>• Developed machine learning and deep learning models using TensorFlow and Sklearn for the prediction of EMI signals by the TVs</p>
+                                        <p>• Dealt with multivariate series forecasting, dataset optimization, and big data analysis</p>
+                                        <p>• Dealt with data visualization and preprocessing using pandas and seaborn</p>
                                     </div>
                                 }
-                                duration="Nov 2023 - Present"
-                                skills={[<SiTensorflow />, <SiPytorch />, <FaPython />, <SiJupyter />, <FaGitAlt />, <FaDocker />]}
+                                duration={"Aug 2024 - Sept 2024"}
+                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />, <SiScikitlearn />]}
                             />
                         </div>
                     </div>
@@ -241,28 +241,6 @@ function HomePage() {
             </main>
         </div>
     );
-}
-
-
-function WorkflowIcon(props) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <rect width="8" height="8" x="3" y="3" rx="2" />
-            <path d="M7 11v4a2 2 0 0 0 2 2h4" />
-            <rect width="8" height="8" x="13" y="13" rx="2" />
-        </svg>
-    )
 }
 
 export default HomePage;
