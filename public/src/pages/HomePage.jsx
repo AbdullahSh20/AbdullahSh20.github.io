@@ -1,15 +1,10 @@
 import React from 'react';
-import { IoLogoGithub } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
+import { IoLogoGithub, IoIosMail } from "react-icons/io";
+import { FaPython, FaGitAlt, FaLinkedin} from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa6";
-import { SiTensorflow } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { SiJupyter } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { FaDocker } from "react-icons/fa";
-import { SiPytorch } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
+import { SiPytorch, SiTensorflow, SiJupyter, SiFlask, SiNginx} from "react-icons/si";
+import { DiNginx } from "react-icons/di";
+
 import ExperienceCard from '../components/ExperienceCard';
 import { Link, useSearchParams, Navigate } from 'react-router-dom';
 
@@ -31,7 +26,7 @@ function HomePage() {
                                     Hello, I'm <br /> Abdullah Shamout
                                 </h1>
                                 <p className="mx-auto max-w-[700px] text-gray-700 md:text-xl">
-                                    I'm a junior computer engineering student studying at Istanbul Technical University (ITU). I'm currently interested in Artificial Intelligence and Backend Development.
+                                    I'm a senior computer engineering student studying at Istanbul Technical University (ITU). I'm currently interested in Artificial Intelligence and Backend Development.
                                 </p>
                                 <div className="flex items-center space-x-2 mt-4">
                                     <a href="https://github.com/AbdullahSh20" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
@@ -158,19 +153,15 @@ function HomePage() {
                                 </p>
                             </div>
                             <ExperienceCard
-                                companyName="Beko Corporate/Arçelik A.Ş."
-                                position="Research and Development Intern"
+                                companyName="Cezeri / Baykar Defense"
+                                position="Artificial Intelligence Engineer"
                                 description={
                                     <div>
-                                        <p>• Worked on the creation of a dataset that relates the designs of TVs using multiple input features to their EMI signals</p>
-                                        <p>• Worked on creating an application to input the dataset into a compact form using tkinter</p>
-                                        <p>• Developed machine learning and deep learning models using TensorFlow and Sklearn for the prediction of EMI signals by the TVs</p>
-                                        <p>• Dealt with multivariate series forecasting, dataset optimization, and big data analysis</p>
-                                        <p>• Dealt with data visualization and preprocessing using pandas and seaborn</p>
+                                        <p>• Still under update since I am working there currently</p>
                                     </div>
                                 }
-                                duration={"Aug 2024 - Sept 2024"}
-                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />, <SiScikitlearn />]}
+                                duration={"Oct 2024 - Present"}
+                                skills={[<SiTensorflow />,<SiFlask />, <SiPytorch />, <FaPython />, <FaGitAlt />, <SiJupyter />, <SiNginx />]}
                             />
                         </div>
                     </div>
