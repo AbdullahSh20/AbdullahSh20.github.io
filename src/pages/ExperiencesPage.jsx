@@ -11,6 +11,8 @@ import { FaGitAlt } from "react-icons/fa";
 import { SiPytorch } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { SiScikitlearn } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
+import { SiNginx } from "react-icons/si";
 
 function ExperiencesPage() {
     return (
@@ -23,6 +25,18 @@ function ExperiencesPage() {
                             All my job/internship experiences that I had over the years.
                         </p>
                         <div className="flex flex-col items-center space-y-8 w-full">
+                            
+                            <ExperienceCard
+                                companyName="Cezeri / Baykar Defense"
+                                position="Artificial Intelligence Engineer"
+                                description={
+                                    <div>
+                                        <p>• Still under update since I am working there currently</p>
+                                    </div>
+                                }
+                                duration={"Oct 2024 - Present"}
+                                skills={[<SiTensorflow />,<SiFlask />, <SiPytorch />, <FaPython />, <FaGitAlt />, <SiJupyter />, <SiNginx />]}
+                            />
                             <ExperienceCard
                                 companyName="Beko Corporate/Arçelik A.Ş."
                                 position="Research and Development Intern"
@@ -36,7 +50,7 @@ function ExperiencesPage() {
                                     </div>
                                 }
                                 duration={"Aug 2024 - Sept 2024"}
-                                skills={[<SiTensorflow />, <FaPython />, <SiJupyter />, <FaGitAlt />, <SiJupyter />, <SiScikitlearn />]}
+                                skills={[<SiTensorflow />, <FaPython />, <FaGitAlt />, <SiJupyter />, <SiScikitlearn />]}
                             />
                             <ExperienceCard
                                 companyName="SiMiT Lab"
