@@ -3,7 +3,7 @@ import ExperienceCard from '../components/ExperienceCard';
 import { SiTensorflow } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { SiJupyter } from "react-icons/si";
-import { SiCsharp } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 import { SiDotnet } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
@@ -31,7 +31,15 @@ function ExperiencesPage() {
                                 position="Artificial Intelligence Engineer"
                                 description={
                                     <div>
-                                        <p>• Still under update since I am working there currently</p>
+                                        <p>• Founded an internal product initiative for 3D scenery generation, leading the project from concept to development</p>
+                                        <p>• Migrate legacy products to modern frameworks, establishing professional and scalable environment setups</p>
+                                        <p>• Containerize applications and build robust CI/CD pipelines to streamline development and production workflows</p>
+                                        <p>• Improved a utilized Structure from Motion (SFM) algorithm speed by 14% through targeted optimizations</p>
+                                        <p>• Worked on 3D Scene Reconstruction using Volumetric and Radiance Field methods</p>
+                                        <p>• Utilized SOTA technologies such as Gaussian Splatting and NeRF based techniques</p>
+                                        <p>• Worked on utilizing LLMs as agentic mediators between sensory controls, actuators, and user panel</p>
+                                        <p>• Integrated agentic LLM models within report generation pipelines for live UAV flight communication with base</p>
+                                        <p>• Contribute to full-stack software development, including frontend, backend, networking, and low-level systems</p>
                                     </div>
                                 }
                                 duration={"Oct 2024 - Present"}
@@ -79,7 +87,7 @@ function ExperiencesPage() {
                                     </div>
                                 }
                                 duration="Jul 2023 - Sept 2023"
-                                skills={[<SiFlutter />, <FaGitAlt />, <SiCsharp />, <SiMysql />, <SiDotnet />]}
+                                skills={[<SiFlutter />, <FaGitAlt />, <TbBrandCSharp />, <SiMysql />, <SiDotnet />]}
                             />
                         </div>
                     </div>

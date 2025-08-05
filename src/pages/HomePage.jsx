@@ -1,9 +1,10 @@
 import React from 'react';
 import { IoLogoGithub, IoIosMail } from "react-icons/io";
-import { FaPython, FaGitAlt, FaLinkedin} from "react-icons/fa";
+import { FaDocker, FaGitAlt, FaLinkedin} from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa6";
-import { SiPytorch, SiTensorflow, SiJupyter, SiFlask, SiNginx} from "react-icons/si";
-import { DiNginx } from "react-icons/di";
+import { SiPostgresql, SiPytorch, SiVite,SiFastapi ,SiJupyter, SiFlask, SiNginx, SiTailwindcss, SiSqlite, SiOpenai } from "react-icons/si";
+import { SiLangchain } from "react-icons/si";
+import { SiOllama } from "react-icons/si";
 
 import ExperienceCard from '../components/ExperienceCard';
 import { Link, useSearchParams, Navigate } from 'react-router-dom';
@@ -26,7 +27,7 @@ function HomePage() {
                                     Hello, I'm <br /> Abdullah Shamout
                                 </h1>
                                 <p className="mx-auto max-w-[700px] text-gray-700 md:text-xl">
-                                    I'm a senior computer engineering student studying at Istanbul Technical University (ITU). I'm currently interested in Artificial Intelligence and Backend Development.
+                                    I'm a computer engineering Graduate from Istanbul Technical University (ITU). I'm currently interested in Computer Vision and Artificial Intelligence.
                                 </p>
                                 <div className="flex items-center space-x-2 mt-4">
                                     <a href="https://github.com/AbdullahSh20" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
@@ -157,11 +158,19 @@ function HomePage() {
                                 position="Artificial Intelligence Engineer"
                                 description={
                                     <div>
-                                        <p>• Still under update since I am working there currently</p>
+                                        <p>• Founded an internal product initiative for 3D scenery generation, leading the project from concept to development</p>
+                                        <p>• Migrate legacy products to modern frameworks, establishing professional and scalable environment setups</p>
+                                        <p>• Containerize applications and build robust CI/CD pipelines to streamline development and production workflows</p>
+                                        <p>• Improved a utilized Structure from Motion (SFM) algorithm speed by 14% through targeted optimizations</p>
+                                        <p>• Worked on 3D Scene Reconstruction using Volumetric and Radiance Field methods</p>
+                                        <p>• Utilized SOTA technologies such as Gaussian Splatting and NeRF based techniques</p>
+                                        <p>• Worked on utilizing LLMs as agentic mediators between sensory controls, actuators, and user panel</p>
+                                        <p>• Integrated agentic LLM models within report generation pipelines for live UAV flight communication with base</p>
+                                        <p>• Contribute to full-stack software development, including frontend, backend, networking, and low-level systems</p>
                                     </div>
                                 }
                                 duration={"Oct 2024 - Present"}
-                                skills={[<SiTensorflow />,<SiFlask />, <SiPytorch />, <FaPython />, <FaGitAlt />, <SiJupyter />, <SiNginx />]}
+                                skills={[<FaDocker />, <SiVite/>, <SiFastapi/>, <SiFlask />, <SiPytorch />, <FaGitAlt />, <SiJupyter />, <SiNginx />, <SiPostgresql/>, <SiSqlite/>, <SiTailwindcss />, <SiLangchain/>, <SiOllama/>, <SiOpenai/>]}
                             />
                         </div>
                     </div>
@@ -189,11 +198,11 @@ function HomePage() {
                                         alt="Project 3"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./src/assets/PersonalProjects/DIOPSIS.jpg"
+                                        src="./src/assets/PersonalProjects/gaussian.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold text-center">Diopsis Challenge</h3>
-                                    <p className="text-sm text-gray-500 text-center">Created Detection and Multilevel Classification models for insects</p>
+                                    <h3 className="text-lg font-bold text-center">NeRF vs. Gaussian Splatting</h3>
+                                    <p className="text-sm text-gray-500 text-center">NeRF vs. Gaussian Splatting case study with my own implementation</p>
                                 </div>
                             </a>
                             
@@ -203,11 +212,11 @@ function HomePage() {
                                         alt="Project 2"
                                         className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover"
                                         height="250"
-                                        src="./src/assets/Project2.png"
+                                        src="./src/assets/PersonalProjects/grad.png"
                                         width="350"
                                     />
-                                    <h3 className="text-lg font-bold text-center">Full Stack Website</h3>
-                                    <p className="text-sm text-gray-500 text-center">Wrote a Full Stack website using Flask, React, MySQL</p>
+                                    <h3 className="text-lg font-bold text-center">Sylvester</h3>
+                                    <p className="text-sm text-gray-500 text-center">AI-Powered Scoliosis Diagnosis from 3D Scans</p>
                                 </div>
                             </a>
                             <a href="https://github.com/AbdullahSh20/imapulation" target="_blank" rel="noopener noreferrer" className="group">
@@ -220,7 +229,7 @@ function HomePage() {
                                         width="350"
                                     />
                                     <h3 className="text-lg font-bold text-center">Imapulation</h3>
-                                    <p className="text-sm text-gray-500 text-center">Created an image manipulation application using Deep Learning</p>
+                                    <p className="text-sm text-gray-500 text-center">Image manipulation application using Deep Learning</p>
                                 </div>
                             </a>
 

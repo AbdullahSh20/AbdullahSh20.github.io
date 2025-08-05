@@ -87,9 +87,16 @@ const coursesData = [
     'Computer Communications',
     'Microcomputer Lab.',
     'Electronics Lab.',
-    'Economics',
     'Innovation and Management for IT',
     'Technical Communication',
+    'Software Engineering',
+    'Artificial Intelligence0',
+    'Robotics',
+    'Learning From Data',
+    'Computer Vision',
+    'Deep Learning',
+    'Computer Engineering Design I',
+    'Computer Engineering Design II'
 ];
 
 const topicsData = [

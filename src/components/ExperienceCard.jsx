@@ -3,7 +3,7 @@ import SkillIcon from './SkillIcon';
 
 const ExperienceCard = ({ companyName, position, description, duration, skills }) => {
     return (
-        <div className="w-full max-w-4xl bg-gray-100 shadow-xl rounded-lg">
+        <div className="w-full max-w-5xl bg-gray-100 shadow-xl rounded-lg">
             <div className="flex justify-start p-6">
                 <div>
                     <WorkflowIcon className="h-12 w-12 text-gray-400 mr-12" />

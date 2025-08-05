@@ -21,7 +21,7 @@ export default function EducationCard({ university, degree, field, duration, ima
                 <p className="text-gray-500 sm:ml-auto text-center sm:text-right">Istanbul, Turkey</p>
             </div>
 
-            <p className="my-2 text-gray-500">Technical Courses Covered So Far:</p>
+            <p className="my-2 text-gray-500">Technical Courses Covered:</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
                 {courses.map((course, index) => (

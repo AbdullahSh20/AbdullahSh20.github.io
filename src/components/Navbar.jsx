@@ -31,16 +31,6 @@ function Navbar() {
                             Projects
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/activities" className="navbar-link hover:underline text-base lg:text-custom" onClick={() => setIsMenuOpen(false)}>
-                            Activities
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/blog" className="navbar-link hover:underline text-base lg:text-custom" onClick={() => setIsMenuOpen(false)}>
-                            Blog
-                        </Link>
-                    </li>
                 </ul>
             </nav>
             <div className="md:hidden ml-auto">
