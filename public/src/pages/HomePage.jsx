@@ -192,7 +192,7 @@ function HomePage() {
                         </div>
                         <div className="mx-auto grid items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 grid-cols-1">
 
-                        <a href="https://github.com/AbdullahSh20/DIOPSIS" target="_blank" rel="noopener noreferrer" className="group">
+                        <a href="https://github.com/AbdullahSh20" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
                                     <img
                                         alt="Project 3"
@@ -206,7 +206,7 @@ function HomePage() {
                                 </div>
                             </a>
                             
-                            <a href="https://github.com/AbdullahSh20/Database-Course-Project" target="_blank" rel="noopener noreferrer" className="group">
+                            <a href="https://github.com/AbdullahSh20" target="_blank" rel="noopener noreferrer" className="group">
                                 <div className="grid gap-1 transform transition-transform group-hover:scale-105">
                                     <img
                                         alt="Project 2"
