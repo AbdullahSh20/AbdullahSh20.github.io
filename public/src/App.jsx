@@ -6,9 +6,6 @@ import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencesPage from './pages/ExperiencesPage';
 import EducationPage from './pages/EducationPage';
-import BlogPage from './pages/BlogPage';
-import ActivitiesPage from './pages/ActivitiesPage';
-import WhyIStartedBlogging from './pages/articles/WhyIStartedBlogging';
 
 function App() {
     return (
@@ -21,17 +18,12 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/experiences" element={<ExperiencesPage />} />
             <Route path="/education" element={<EducationPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/activities" element={<ActivitiesPage />} />
             <Route path="*" element={<Navigate to="/" />} />
-
-            {/*from here and downowards I will have my blog article routes*/}
-            <Route path="/blog/WhyIStartedBlogging" element={<WhyIStartedBlogging />} />
           </Routes>
         </div>
       </Router>
       <footer className="flex items-center h-16 px-4 border-t md:px-6">
-        <p className="text-xs text-gray-500 dark:text-gray-700">© 2024 Abdullah Shamout Portfolio. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-700">© 2025 Abdullah Shamout Portfolio. All rights reserved.</p>
       </footer>
     </div>
   );
