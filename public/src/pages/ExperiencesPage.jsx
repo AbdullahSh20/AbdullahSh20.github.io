@@ -13,6 +13,10 @@ import { FaDocker } from "react-icons/fa";
 import { SiScikitlearn } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { SiNginx } from "react-icons/si";
+import { SiPostgresql, SiVite,SiFastapi, SiTailwindcss, SiSqlite, SiOpenai } from "react-icons/si";
+import { SiLangchain } from "react-icons/si";
+import { SiOllama } from "react-icons/si";
+
 
 function ExperiencesPage() {
     return (
@@ -43,10 +47,10 @@ function ExperiencesPage() {
                                     </div>
                                 }
                                 duration={"Oct 2024 - Present"}
-                                skills={[<SiTensorflow />,<SiFlask />, <SiPytorch />, <FaPython />, <FaGitAlt />, <SiJupyter />, <SiNginx />]}
+                                                                skills={[<FaDocker />, <SiVite/>, <SiFastapi/>, <SiFlask />, <SiPytorch />, <FaGitAlt />, <SiJupyter />, <SiNginx />, <SiPostgresql/>, <SiSqlite/>, <SiTailwindcss />, <SiLangchain/>, <SiOllama/>, <SiOpenai/>]}
                             />
                             <ExperienceCard
-                                companyName="Beko Corporate/Arçelik A.Ş."
+                                companyName="Beko Corporate / Arçelik A.Ş."
                                 position="Research and Development Intern"
                                 description={
                                     <div>
