@@ -53,11 +53,11 @@ const Personalprojects = [
         title: 'NeRF vs. Gaussian Splatting',
         description: 'Using PyTorch, I implemented Neural Radiance Fields (NeRF) from scratch to conduct a comparative study against 3D Gaussian Splatting for novel view synthesis. The project involved the full NeRF pipeline, from positional encoding to volumetric rendering, and evaluated both methods on synthetic and custom drone datasets. The analysis demonstrated Gaussian Splatting\'s superior speed and quality for real-world captures, showcasing the trade-offs between these state-of-the-art 3D reconstruction techniques.',
         imageUrl: './src/assets/PersonalProjects/gaussian.png',
-        githubLink: 'https://github.com/AbdullahSh20'
+        githubLink: 'https://github.com/AbdullahSh20/ComputerVision'
     },
     {
         title: 'Sylvester',
-        description: 'I co-developed an end-to-end AI system for scoliosis diagnosis from 3D scans. The system first segments the human torso using a custom model that we called PointSegLite that achieved 87% accuracy. It then classifies the scoliosis type using a novel feature extraction method based on back-surface normals, reaching a 76% F1-score. The entire pipeline is deployed in Sylvester, a custom, interactive web-based GUI built with Python, React, and Three.js for real-time clinical use based on viser fork.',
+        description: 'I co-developed an end-to-end AI system for scoliosis diagnosis from 3D scans. The system first segments the human torso using a custom model that we called PointSegLite that achieved 87% accuracy. It then classifies the scoliosis type using a novel feature extraction method based on back-surface normals, reaching a 76% F1-score. The entire pipeline is deployed in Sylvester, a custom, interactive web-based GUI built with Python, React, and Three.js for real-time clinical use based on viser fork. The project is still undergoing development under the company Osteoid thus the code is not public yet.',
         imageUrl: './src/assets/PersonalProjects/grad.png',
         githubLink: 'https://github.com/AbdullahSh20'
     },
